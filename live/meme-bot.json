@@ -1,29 +1,39 @@
 {
  "status": "running",
- "tradesUsed": 3,
+ "tradesUsed": 4,
  "tradesMax": 250,
- "paperValue": 987.13,
+ "paperValue": 994.22,
  "startValue": 1000.0,
  "lastTrade": {
-  "time": "2026-10-16T21:03:16-04:00",
-  "symbol": "ELON",
-  "action": "SELL_SL",
-  "price": 0.0003009820312,
-  "sizeUsd": 16.29,
-  "pnlUsd": -9.33
+  "time": "2026-10-16T21:17:41-04:00",
+  "symbol": "Aloooong",
+  "action": "BUY",
+  "price": 0.0001605904267,
+  "sizeUsd": 25.0,
+  "pnlUsd": null
  },
- "openPositions": 1,
- "cash": 940.67,
+ "openPositions": 2,
+ "cash": 915.67,
  "openTrades": [
   {
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.00136,
+   "currentPrice": 0.001323,
    "sizeUsd": 50.0,
-   "pnlUsd": -3.54,
-   "pnlPct": -7.07,
+   "pnlUsd": -4.8,
+   "pnlPct": -9.6,
    "openedAt": "2026-10-16T20:13:56-04:00"
+  },
+  {
+   "symbol": "Aloooong",
+   "side": "long",
+   "entryPrice": 0.0001605904267,
+   "currentPrice": 0.000215,
+   "sizeUsd": 25.0,
+   "pnlUsd": 8.36,
+   "pnlPct": 33.43,
+   "openedAt": "2026-10-16T21:17:41-04:00"
   }
  ],
  "recentTrades": [
@@ -40,5 +50,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T21:16:49-04:00"
+ "updatedAt": "2026-10-16T21:19:43-04:00"
 }
