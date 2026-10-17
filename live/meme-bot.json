@@ -2,7 +2,7 @@
  "status": "running",
  "tradesUsed": 9,
  "tradesMax": 250,
- "paperValue": 986.65,
+ "paperValue": 985.21,
  "startValue": 1000.0,
  "lastTrade": {
   "time": "2026-10-16T22:11:11-04:00",
@@ -29,30 +29,30 @@
    "symbol": "illusion",
    "side": "long",
    "entryPrice": 0.0001001072068,
-   "currentPrice": 8.743e-05,
+   "currentPrice": 8.739e-05,
    "sizeUsd": 25.0,
-   "pnlUsd": -3.24,
-   "pnlPct": -12.96,
+   "pnlUsd": -3.25,
+   "pnlPct": -13.0,
    "openedAt": "2026-10-16T21:39:12-04:00"
   },
   {
    "symbol": "Nihilism",
    "side": "long",
    "entryPrice": 0.0001580441209,
-   "currentPrice": 0.0001349,
+   "currentPrice": 0.0001297,
    "sizeUsd": 50.0,
-   "pnlUsd": -7.46,
-   "pnlPct": -14.92,
+   "pnlUsd": -9.1,
+   "pnlPct": -18.2,
    "openedAt": "2026-10-16T21:39:13-04:00"
   },
   {
    "symbol": "DOPE",
    "side": "long",
    "entryPrice": 0.003169252839,
-   "currentPrice": 0.003164,
+   "currentPrice": 0.003177,
    "sizeUsd": 50.0,
-   "pnlUsd": -0.24,
-   "pnlPct": -0.49,
+   "pnlUsd": -0.04,
+   "pnlPct": -0.08,
    "openedAt": "2026-10-16T22:11:11-04:00"
   }
  ],
@@ -94,5 +94,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T22:41:58-04:00"
+ "updatedAt": "2026-10-16T22:44:58-04:00"
 }
