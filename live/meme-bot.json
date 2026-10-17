@@ -2,7 +2,7 @@
  "status": "running",
  "tradesUsed": 10,
  "tradesMax": 250,
- "paperValue": 982.79,
+ "paperValue": 980.76,
  "startValue": 1000.0,
  "lastTrade": {
   "time": "2026-10-16T22:53:41-04:00",
@@ -29,40 +29,40 @@
    "symbol": "illusion",
    "side": "long",
    "entryPrice": 0.0001001072068,
-   "currentPrice": 9.475e-05,
+   "currentPrice": 9.249e-05,
    "sizeUsd": 25.0,
-   "pnlUsd": -1.42,
-   "pnlPct": -5.67,
+   "pnlUsd": -1.98,
+   "pnlPct": -7.92,
    "openedAt": "2026-10-16T21:39:12-04:00"
   },
   {
    "symbol": "Nihilism",
    "side": "long",
    "entryPrice": 0.0001580441209,
-   "currentPrice": 0.0001276,
+   "currentPrice": 0.0001237,
    "sizeUsd": 50.0,
-   "pnlUsd": -9.76,
-   "pnlPct": -19.52,
+   "pnlUsd": -10.99,
+   "pnlPct": -21.98,
    "openedAt": "2026-10-16T21:39:13-04:00"
   },
   {
    "symbol": "DOPE",
    "side": "long",
    "entryPrice": 0.003169252839,
-   "currentPrice": 0.003115,
+   "currentPrice": 0.003155,
    "sizeUsd": 50.0,
-   "pnlUsd": -1.01,
-   "pnlPct": -2.03,
+   "pnlUsd": -0.38,
+   "pnlPct": -0.77,
    "openedAt": "2026-10-16T22:11:11-04:00"
   },
   {
    "symbol": "CAPE",
    "side": "long",
    "entryPrice": 0.0001151817764,
-   "currentPrice": 0.0001038,
+   "currentPrice": 9.982e-05,
    "sizeUsd": 25.0,
-   "pnlUsd": -2.55,
-   "pnlPct": -10.19,
+   "pnlUsd": -3.41,
+   "pnlPct": -13.63,
    "openedAt": "2026-10-16T22:53:41-04:00"
   }
  ],
@@ -104,5 +104,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T22:53:58-04:00"
+ "updatedAt": "2026-10-16T22:56:59-04:00"
 }
