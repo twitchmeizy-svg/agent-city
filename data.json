@@ -1,24 +1,197 @@
 {
- "label":"EXAMPLE DATA","updated":"2026-10-16T19:55:00-04:00",
- "portfolio":{"name":"Paper Portfolio","value":104382.55,"start":100000,"dayChange":1.27,"positions":[{"sym":"NVDA","qty":40,"value":5120.4},{"sym":"SPY","qty":60,"value":34210.0},{"sym":"TSLA 250C","qty":5,"value":1850.0},{"sym":"CASH","qty":1,"value":63202.15}]},
- "agents":[
- {"id":"cos","name":"Chief of Staff","role":"Manager","district":"Center","status":"working","task":"Coordinating daily priorities"},
- {"id":"hall","name":"Meeting Hall","role":"Sync Venue","district":"Center","status":"meeting","task":"Weekly sync in progress"},
- {"id":"brainstorm","name":"Brainstorm","role":"Idea Generator","district":"Ideas","status":"working","task":"Generating product ideas"},
- {"id":"billion","name":"Billion Brainstorm","role":"Big-Bet Ideas","district":"Ideas","status":"idle","task":"Waiting"},
- {"id":"wild","name":"Wild Billion","role":"Moonshots","district":"Ideas","status":"meeting","task":"In Meeting Hall"},
- {"id":"physical","name":"Physical Billion","role":"Hardware Ideas","district":"Ideas","status":"idle","task":"Waiting"},
- {"id":"pitch","name":"Pitch Writer","role":"Pitch Decks","district":"Ideas","status":"working","task":"Drafting pitch"},
- {"id":"market","name":"Market Desk","role":"Market News","district":"Money & Trading","status":"working","task":"Scanning headlines"},
- {"id":"stock","name":"Stock Trader","role":"Equities","district":"Money & Trading","status":"working","task":"Rebalancing"},
- {"id":"options","name":"Options Trader","role":"Derivatives","district":"Money & Trading","status":"idle","task":"Waiting for open"},
- {"id":"meme","name":"Meme Trader","role":"Momentum","district":"Money & Trading","status":"meeting","task":"In Meeting Hall"},
- {"id":"tenk","name":"10 to 1M","role":"Growth Challenge","district":"Money & Trading","status":"idle","task":"Waiting"},
- {"id":"earn","name":"Earn Today","role":"Quick Income","district":"Money & Trading","status":"working","task":"Finding gigs"},
- {"id":"jobs","name":"Job Scout","role":"Job Search","district":"Career","status":"working","task":"Scanning listings"},
- {"id":"sched","name":"Scheduler","role":"Calendar","district":"Career","status":"idle","task":"Waiting"},
- {"id":"sales","name":"Sales Coach","role":"Sales Training","district":"Career","status":"meeting","task":"In Meeting Hall"},
- {"id":"dealer","name":"Dealer Marketing","role":"Dealer Promo","district":"Career","status":"working","task":"Writing campaign"},
- {"id":"detail","name":"Detail Co","role":"Detailing Biz","district":"Business","status":"idle","task":"Waiting"},
- {"id":"coder","name":"Coder","role":"Software","district":"Business","status":"working","task":"Building agent city"}
- ]}
+ "label": "EXAMPLE DATA",
+ "updated": "2026-10-16T19:55:00-04:00",
+ "portfolio": {
+  "name": "Paper Portfolio",
+  "value": 104382.55,
+  "start": 100000,
+  "dayChange": 1.27,
+  "positions": [
+   {
+    "sym": "NVDA",
+    "qty": 40,
+    "value": 5120.4
+   },
+   {
+    "sym": "SPY",
+    "qty": 60,
+    "value": 34210.0
+   },
+   {
+    "sym": "TSLA 250C",
+    "qty": 5,
+    "value": 1850.0
+   },
+   {
+    "sym": "CASH",
+    "qty": 1,
+    "value": 63202.15
+   }
+  ]
+ },
+ "agents": [
+  {
+   "id": "cos",
+   "name": "Chief of Staff",
+   "role": "Manager",
+   "district": "Center",
+   "status": "working",
+   "task": "Coordinating daily priorities"
+  },
+  {
+   "id": "hall",
+   "name": "Meeting Hall",
+   "role": "Sync Venue",
+   "district": "Center",
+   "status": "meeting",
+   "task": "Weekly sync in progress"
+  },
+  {
+   "id": "brainstorm",
+   "name": "Brainstorm",
+   "role": "Idea Generator",
+   "district": "Ideas",
+   "status": "working",
+   "task": "Generating product ideas"
+  },
+  {
+   "id": "billion",
+   "name": "Billion Brainstorm",
+   "role": "Big-Bet Ideas",
+   "district": "Ideas",
+   "status": "idle",
+   "task": "Waiting"
+  },
+  {
+   "id": "wild",
+   "name": "Wild Billion",
+   "role": "Moonshots",
+   "district": "Ideas",
+   "status": "meeting",
+   "task": "In Meeting Hall"
+  },
+  {
+   "id": "physical",
+   "name": "Physical Billion",
+   "role": "Hardware Ideas",
+   "district": "Ideas",
+   "status": "idle",
+   "task": "Waiting"
+  },
+  {
+   "id": "pitch",
+   "name": "Pitch Writer",
+   "role": "Pitch Decks",
+   "district": "Ideas",
+   "status": "working",
+   "task": "Drafting pitch"
+  },
+  {
+   "id": "market",
+   "name": "Market Desk",
+   "role": "Market News",
+   "district": "Money & Trading",
+   "status": "working",
+   "task": "Scanning headlines"
+  },
+  {
+   "id": "stock",
+   "name": "Stock Trader",
+   "role": "Equities",
+   "district": "Money & Trading",
+   "status": "working",
+   "task": "Rebalancing"
+  },
+  {
+   "id": "options",
+   "name": "Options Trader",
+   "role": "Derivatives",
+   "district": "Money & Trading",
+   "status": "idle",
+   "task": "Waiting for open"
+  },
+  {
+   "id": "meme",
+   "name": "Meme Trader",
+   "role": "Momentum",
+   "district": "Money & Trading",
+   "status": "meeting",
+   "task": "In Meeting Hall"
+  },
+  {
+   "id": "tenk",
+   "name": "10 to 1M",
+   "role": "Growth Challenge",
+   "district": "Money & Trading",
+   "status": "idle",
+   "task": "Waiting"
+  },
+  {
+   "id": "earn",
+   "name": "Earn Today",
+   "role": "Quick Income",
+   "district": "Money & Trading",
+   "status": "working",
+   "task": "Finding gigs"
+  },
+  {
+   "id": "memebot",
+   "name": "Meme Bot 24/7",
+   "role": "Trades meme coins around the clock, max 250 trades",
+   "district": "Money & Trading",
+   "status": "working",
+   "task": "Scanning meme coins",
+   "tradesUsed": 37,
+   "tradesMax": 250,
+   "alwaysOn": true
+  },
+  {
+   "id": "jobs",
+   "name": "Job Scout",
+   "role": "Job Search",
+   "district": "Career",
+   "status": "working",
+   "task": "Scanning listings"
+  },
+  {
+   "id": "sched",
+   "name": "Scheduler",
+   "role": "Calendar",
+   "district": "Career",
+   "status": "idle",
+   "task": "Waiting"
+  },
+  {
+   "id": "sales",
+   "name": "Sales Coach",
+   "role": "Sales Training",
+   "district": "Career",
+   "status": "meeting",
+   "task": "In Meeting Hall"
+  },
+  {
+   "id": "dealer",
+   "name": "Dealer Marketing",
+   "role": "Dealer Promo",
+   "district": "Career",
+   "status": "working",
+   "task": "Writing campaign"
+  },
+  {
+   "id": "detail",
+   "name": "Detail Co",
+   "role": "Detailing Biz",
+   "district": "Business",
+   "status": "idle",
+   "task": "Waiting"
+  },
+  {
+   "id": "coder",
+   "name": "Coder",
+   "role": "Software",
+   "district": "Business",
+   "status": "working",
+   "task": "Building agent city"
+  }
+ ]
+}

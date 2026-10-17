@@ -26,18 +26,18 @@ function bld(a,x,z,w,h,col){const grp=new THREE.Group();grp.position.set(x,0,z);
  for(let i=2;i<h;i+=3){const s=new THREE.Mesh(new THREE.BoxGeometry(w+.05,.15,w+.05),new THREE.MeshBasicMaterial({color:col}));s.position.y=i;grp.add(s);}
  const b=new THREE.Mesh(new THREE.SphereGeometry(.6),new THREE.MeshBasicMaterial({color:SC[a.status]}));b.position.y=h+.9;grp.add(b);grp.userData.beacon=b;
  const pl=new THREE.PointLight(col,8,w*4);pl.position.y=2;grp.add(pl);
- label(`<b>${a.name}</b><i>${a.role}</i>`,'lbl',h+2.6+(a.lo||0),grp);scene.add(grp);return grp;}
-const groups=[];const by={};data.agents.forEach(a=>(by[a.district]??=[]).push(a));
+ label(`<b>${a.name}</b>${a.alwaysOn?'<span class=on>ON 24/7</span>':''}<i>${a.tradesMax?`Trades ${a.tradesUsed} / ${a.tradesMax}`:a.role}</i>`,'lbl',h+2.6+(a.lo||0),grp);scene.add(grp);return grp;}
+const n0=a=>a.district;const groups=[];const by={};data.agents.forEach(a=>(by[a.district]??=[]).push(a));
 bld(by.Center[0],-9,0,6,30,0xbffcff);
 const hall=bld(by.Center[1],13,0,9,6,0xff2bd6);
 const ring=new THREE.Mesh(new THREE.TorusGeometry(8,.2,8,48),new THREE.MeshBasicMaterial({color:0xff2bd6}));ring.rotation.x=Math.PI/2;ring.position.y=.3;hall.add(ring);
-for(const[n,d]of Object.entries(D)){(by[n]||[]).forEach((a,i)=>{const cols=3,x=d.c[0]-18+(i%cols)*18,z=d.c[1]-10+Math.floor(i/cols)*20;a.lo=(i%2)*3;groups.push(bld(a,x,z,4,8+((i*7)%5)*3,d.col));});}
+for(const[n,d]of Object.entries(D)){(by[n]||[]).forEach((a,i)=>{const cnt=by[n0(a)].length,cols=cnt>6?4:3,sx=cols==4?13:18,x=d.c[0]-sx*(cols-1)/2+(i%cols)*sx,z=d.c[1]-10+Math.floor(i/cols)*20;a.lo=((i%2)+(Math.floor(i/3)%2))%2*3+(by[n0(a)].length>6?(i%4)*1.2:0);groups.push(bld(a,x,z,4,8+((i*7)%5)*3,d.col));});}
 // UI
 document.getElementById('top').innerHTML='<b style="color:#f0f;margin-right:6px">AGENT CITY</b><span class="pill" style="color:#f44;border-color:#f44">EXAMPLE DATA</span>'+data.agents.map(a=>`<span class="pill ${a.status}" data-id="${a.id}">${a.name}: ${a.status}</span>`).join('');
 const P=data.portfolio,ch=P.value-P.start;
 const pf=document.getElementById('pf');pf.innerHTML=`<div class="hd" style="color:#f44;font-size:10px">EXAMPLE DATA · ${P.name} <span class=x>▾</span></div><div class="v">$${P.value.toLocaleString(undefined,{minimumFractionDigits:2})}</div><div style="color:${ch>=0?'#0f8':'#f44'}">${ch>=0?'+':''}$${ch.toFixed(2)} total · ${P.dayChange}% today</div><div class=bd><hr>`+P.positions.map(p=>`<div>${p.sym}<span style="float:right">$${p.value.toLocaleString()}</span></div>`).join('')+'</div>';pf.querySelector('.hd').onclick=()=>pf.classList.toggle('col');if(innerWidth<700)pf.classList.add('col');
 const card=document.getElementById('card');
-const show=a=>{card.style.display='block';card.innerHTML=`<span class=x onclick="this.parentElement.style.display='none'">✕</span><div style="color:#f44;font-size:10px">EXAMPLE DATA</div><b style="font-size:15px;color:#fff">${a.name}</b><div style="color:#f6f">${a.role} · ${a.district}</div><div>Status: <span class="pill ${a.status}">${a.status}</span></div><div>Task: ${a.task}</div>`;};
+const show=a=>{card.style.display='block';card.innerHTML=`<span class=x onclick="this.parentElement.style.display='none'">✕</span><div style="color:#f44;font-size:10px">EXAMPLE DATA</div><b style="font-size:15px;color:#fff">${a.name}</b><div style="color:#f6f">${a.role} · ${a.district}</div><div>Status: <span class="pill ${a.status}">${a.status}</span></div><div>Task: ${a.task}</div>${a.tradesMax?`<div style="color:#0ff">Trades ${a.tradesUsed} / ${a.tradesMax}</div>`:''}${a.alwaysOn?'<span class=on>ON 24/7</span>':''}`;};
 document.querySelectorAll('#top .pill[data-id]').forEach(el=>el.onclick=()=>show(data.agents.find(a=>a.id==el.dataset.id)));
 const rc=new THREE.Raycaster(),mp=new THREE.Vector2();let hov=null,pinned=null;
 const pick=e=>{mp.set(e.clientX/innerWidth*2-1,-e.clientY/innerHeight*2+1);rc.setFromCamera(mp,cam);return rc.intersectObjects(meshes)[0]?.object;};
