@@ -2,7 +2,7 @@
  "status": "running",
  "tradesUsed": 2,
  "tradesMax": 250,
- "paperValue": 994.84,
+ "paperValue": 995.34,
  "startValue": 1000.0,
  "lastTrade": {
   "time": "2026-10-16T20:56:44-04:00",
@@ -19,23 +19,23 @@
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.00141,
+   "currentPrice": 0.001411,
    "sizeUsd": 50.0,
-   "pnlUsd": -1.83,
-   "pnlPct": -3.65,
+   "pnlUsd": -1.79,
+   "pnlPct": -3.59,
    "openedAt": "2026-10-16T20:13:56-04:00"
   },
   {
    "symbol": "ELON",
    "side": "long",
    "entryPrice": 0.0004769337162,
-   "currentPrice": 0.0004147,
+   "currentPrice": 0.0004236,
    "sizeUsd": 25.0,
-   "pnlUsd": -3.34,
-   "pnlPct": -13.34,
+   "pnlUsd": -2.87,
+   "pnlPct": -11.48,
    "openedAt": "2026-10-16T20:56:44-04:00"
   }
  ],
  "recentTrades": [],
- "updatedAt": "2026-10-16T20:58:40-04:00"
+ "updatedAt": "2026-10-16T21:01:38-04:00"
 }
