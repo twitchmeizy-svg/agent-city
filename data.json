@@ -143,7 +143,94 @@
    "task": "Scanning meme coins",
    "tradesUsed": 37,
    "tradesMax": 250,
-   "alwaysOn": true
+   "alwaysOn": true,
+   "openTrades": [
+    {
+     "symbol": "DOGE",
+     "side": "long",
+     "entryPrice": 0.142,
+     "currentPrice": 0.1513,
+     "sizeUsd": 150,
+     "pnlUsd": 9.82,
+     "pnlPct": 6.55,
+     "openedAt": "2026-10-16T10:15:00-04:00"
+    },
+    {
+     "symbol": "PEPE",
+     "side": "long",
+     "entryPrice": 1.12e-05,
+     "currentPrice": 1.044e-05,
+     "sizeUsd": 120,
+     "pnlUsd": -8.14,
+     "pnlPct": -6.79,
+     "openedAt": "2026-10-16T12:15:00-04:00"
+    },
+    {
+     "symbol": "WIF",
+     "side": "long",
+     "entryPrice": 2.31,
+     "currentPrice": 2.47,
+     "sizeUsd": 100,
+     "pnlUsd": 6.93,
+     "pnlPct": 6.93,
+     "openedAt": "2026-10-16T14:15:00-04:00"
+    },
+    {
+     "symbol": "BONK",
+     "side": "short",
+     "entryPrice": 2.85e-05,
+     "currentPrice": 2.71e-05,
+     "sizeUsd": 80,
+     "pnlUsd": 3.93,
+     "pnlPct": 4.91,
+     "openedAt": "2026-10-16T16:15:00-04:00"
+    },
+    {
+     "symbol": "FLOKI",
+     "side": "long",
+     "entryPrice": 0.000182,
+     "currentPrice": 0.000176,
+     "sizeUsd": 90,
+     "pnlUsd": -2.97,
+     "pnlPct": -3.3,
+     "openedAt": "2026-10-16T18:15:00-04:00"
+    }
+   ],
+   "recentTrades": [
+    {
+     "symbol": "SHIB",
+     "side": "long",
+     "pnlUsd": -3.1,
+     "closedAt": "2026-10-16T09:42:00-04:00"
+    },
+    {
+     "symbol": "DOGE",
+     "side": "long",
+     "pnlUsd": 6.45,
+     "closedAt": "2026-10-16T08:10:00-04:00"
+    },
+    {
+     "symbol": "MOG",
+     "side": "short",
+     "pnlUsd": 2.2,
+     "closedAt": "2026-10-16T05:55:00-04:00"
+    },
+    {
+     "symbol": "PEPE",
+     "side": "long",
+     "pnlUsd": -1.75,
+     "closedAt": "2026-10-16T03:20:00-04:00"
+    },
+    {
+     "symbol": "WIF",
+     "side": "long",
+     "pnlUsd": 4.8,
+     "closedAt": "2026-10-16T01:05:00-04:00"
+    }
+   ],
+   "startValue": 1000,
+   "cash": 468.6,
+   "paperValue": 1018.17
   },
   {
    "id": "jobs",
