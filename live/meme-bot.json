@@ -1,59 +1,69 @@
 {
  "status": "running",
- "tradesUsed": 9,
+ "tradesUsed": 10,
  "tradesMax": 250,
- "paperValue": 986.01,
+ "paperValue": 982.79,
  "startValue": 1000.0,
  "lastTrade": {
-  "time": "2026-10-16T22:11:11-04:00",
-  "symbol": "DOPE",
+  "time": "2026-10-16T22:53:41-04:00",
+  "symbol": "CAPE",
   "action": "BUY",
-  "price": 0.003169252839,
-  "sizeUsd": 50.0,
+  "price": 0.0001151817764,
+  "sizeUsd": 25.0,
   "pnlUsd": null
  },
- "openPositions": 4,
- "cash": 823.63,
+ "openPositions": 5,
+ "cash": 798.63,
  "openTrades": [
   {
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.001435,
+   "currentPrice": 0.001431,
    "sizeUsd": 50.0,
-   "pnlUsd": -0.97,
-   "pnlPct": -1.95,
+   "pnlUsd": -1.11,
+   "pnlPct": -2.22,
    "openedAt": "2026-10-16T20:13:56-04:00"
   },
   {
    "symbol": "illusion",
    "side": "long",
    "entryPrice": 0.0001001072068,
-   "currentPrice": 9.452e-05,
+   "currentPrice": 9.475e-05,
    "sizeUsd": 25.0,
-   "pnlUsd": -1.48,
-   "pnlPct": -5.9,
+   "pnlUsd": -1.42,
+   "pnlPct": -5.67,
    "openedAt": "2026-10-16T21:39:12-04:00"
   },
   {
    "symbol": "Nihilism",
    "side": "long",
    "entryPrice": 0.0001580441209,
-   "currentPrice": 0.0001299,
+   "currentPrice": 0.0001276,
    "sizeUsd": 50.0,
-   "pnlUsd": -9.04,
-   "pnlPct": -18.07,
+   "pnlUsd": -9.76,
+   "pnlPct": -19.52,
    "openedAt": "2026-10-16T21:39:13-04:00"
   },
   {
    "symbol": "DOPE",
    "side": "long",
    "entryPrice": 0.003169252839,
-   "currentPrice": 0.003107,
+   "currentPrice": 0.003115,
    "sizeUsd": 50.0,
-   "pnlUsd": -1.14,
-   "pnlPct": -2.28,
+   "pnlUsd": -1.01,
+   "pnlPct": -2.03,
    "openedAt": "2026-10-16T22:11:11-04:00"
+  },
+  {
+   "symbol": "CAPE",
+   "side": "long",
+   "entryPrice": 0.0001151817764,
+   "currentPrice": 0.0001038,
+   "sizeUsd": 25.0,
+   "pnlUsd": -2.55,
+   "pnlPct": -10.19,
+   "openedAt": "2026-10-16T22:53:41-04:00"
   }
  ],
  "recentTrades": [
@@ -94,5 +104,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T22:51:02-04:00"
+ "updatedAt": "2026-10-16T22:53:58-04:00"
 }
