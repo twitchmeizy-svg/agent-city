@@ -1,19 +1,19 @@
 {
  "status": "running",
- "tradesUsed": 5,
+ "tradesUsed": 6,
  "tradesMax": 250,
- "paperValue": 999.94,
+ "paperValue": 996.77,
  "startValue": 1000.0,
  "lastTrade": {
-  "time": "2026-10-16T21:27:07-04:00",
+  "time": "2026-10-16T21:32:02-04:00",
   "symbol": "Aloooong",
-  "action": "SELL_TP1",
-  "price": 0.0002365168132,
-  "sizeUsd": 18.75,
-  "pnlUsd": 5.78
+  "action": "SELL_TRAIL",
+  "price": 0.0001900130174,
+  "sizeUsd": 14.9,
+  "pnlUsd": 2.19
  },
- "openPositions": 2,
- "cash": 933.95,
+ "openPositions": 1,
+ "cash": 948.63,
  "openTrades": [
   {
    "symbol": "Dacity",
@@ -24,19 +24,21 @@
    "pnlUsd": -1.86,
    "pnlPct": -3.72,
    "openedAt": "2026-10-16T20:13:56-04:00"
-  },
+  }
+ ],
+ "recentTrades": [
   {
    "symbol": "Aloooong",
    "side": "long",
    "entryPrice": 0.0001605904267,
-   "currentPrice": 0.0002301,
+   "exitPrice": 0.0001900130174,
+   "currentPrice": 0.0001900130174,
    "sizeUsd": 12.5,
-   "pnlUsd": 5.35,
-   "pnlPct": 42.8,
-   "openedAt": "2026-10-16T21:17:41-04:00"
-  }
- ],
- "recentTrades": [
+   "pnlUsd": 2.19,
+   "pnlPct": 17.49,
+   "openedAt": "2026-10-16T21:17:41-04:00",
+   "closedAt": "2026-10-16T21:32:02-04:00"
+  },
   {
    "symbol": "Aloooong",
    "side": "long",
@@ -62,5 +64,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T21:28:58-04:00"
+ "updatedAt": "2026-10-16T21:32:02-04:00"
 }
