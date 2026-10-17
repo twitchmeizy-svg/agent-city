@@ -1,29 +1,49 @@
 {
  "status": "running",
- "tradesUsed": 6,
+ "tradesUsed": 8,
  "tradesMax": 250,
- "paperValue": 997.7,
+ "paperValue": 995.08,
  "startValue": 1000.0,
  "lastTrade": {
-  "time": "2026-10-16T21:32:02-04:00",
-  "symbol": "Aloooong",
-  "action": "SELL_TRAIL",
-  "price": 0.0001900130174,
-  "sizeUsd": 14.9,
-  "pnlUsd": 2.19
+  "time": "2026-10-16T21:39:13-04:00",
+  "symbol": "Nihilism",
+  "action": "BUY",
+  "price": 0.0001580441209,
+  "sizeUsd": 50.0,
+  "pnlUsd": null
  },
- "openPositions": 1,
- "cash": 948.63,
+ "openPositions": 3,
+ "cash": 873.63,
  "openTrades": [
   {
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.001436,
+   "currentPrice": 0.001447,
    "sizeUsd": 50.0,
-   "pnlUsd": -0.94,
-   "pnlPct": -1.88,
+   "pnlUsd": -0.56,
+   "pnlPct": -1.13,
    "openedAt": "2026-10-16T20:13:56-04:00"
+  },
+  {
+   "symbol": "illusion",
+   "side": "long",
+   "entryPrice": 0.0001001072068,
+   "currentPrice": 9.725e-05,
+   "sizeUsd": 25.0,
+   "pnlUsd": -0.8,
+   "pnlPct": -3.18,
+   "openedAt": "2026-10-16T21:39:12-04:00"
+  },
+  {
+   "symbol": "Nihilism",
+   "side": "long",
+   "entryPrice": 0.0001580441209,
+   "currentPrice": 0.0001516,
+   "sizeUsd": 50.0,
+   "pnlUsd": -2.19,
+   "pnlPct": -4.38,
+   "openedAt": "2026-10-16T21:39:13-04:00"
   }
  ],
  "recentTrades": [
@@ -64,5 +84,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T21:38:08-04:00"
+ "updatedAt": "2026-10-16T21:41:00-04:00"
 }
