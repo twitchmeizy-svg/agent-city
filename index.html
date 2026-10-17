@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.svg"><title>Agent City</title>
+<style>
+body{margin:0;background:#05010d;color:#cfe;font-family:Consolas,monospace;overflow:hidden}
+#top{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;flex-wrap:wrap;gap:4px;padding:6px;background:rgba(10,0,25,.85);border-bottom:1px solid #f0f}
+.pill{font-size:10px;padding:2px 6px;border-radius:9px;border:1px solid;cursor:pointer}
+.idle{color:#8af;border-color:#48f}.working{color:#0f8;border-color:#0f8;box-shadow:0 0 6px #0f8}.meeting{color:#fd0;border-color:#fa0;box-shadow:0 0 6px #fa0}
+#ex{position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:5;color:#ff4fd8;border:2px solid #ff4fd8;padding:4px 14px;font-weight:bold;letter-spacing:3px;background:#1a0020}
+.panel{position:fixed;z-index:5;background:rgba(15,0,35,.85);border:1px solid #0ff;box-shadow:0 0 12px #0ff6;padding:10px;font-size:12px}
+#pf{right:10px;bottom:10px;width:230px}#pf .v{font-size:22px;color:#0ff;text-shadow:0 0 8px #0ff}
+#card{left:10px;bottom:10px;width:250px;display:none;border-color:#f0f}
+.lbl{text-align:center;pointer-events:none;text-shadow:0 0 6px #0ff}.lbl b{color:#fff;font-size:12px;display:block}.lbl i{color:#f6f;font-size:10px}
+.dl{color:#f6f;font-size:16px;letter-spacing:4px;opacity:.7;text-shadow:0 0 10px #f0f}
+#top{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap}.pill{flex:0 0 auto}
+.panel .hd{cursor:pointer;user-select:none}.panel.col .bd{display:none}
+#pf .bd hr{border-color:#0ff4}
+.x{float:right;color:#f6f;cursor:pointer}
+@media (max-width:700px){#pf{width:auto;left:8px;right:8px;bottom:44px;padding:6px}#pf .v{font-size:18px}#card{left:8px;right:8px;width:auto;bottom:auto;top:44px}#ex{font-size:10px;letter-spacing:1px;bottom:6px}.lbl b{font-size:10px}.lbl i{display:none}}
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script></head><body>
+<div id="top"></div><div id="ex">⚠ EXAMPLE DATA — not live</div>
+<div id="pf" class="panel"></div><div id="card" class="panel"></div>
+<script type="module" src="app.js"></script></body></html>
