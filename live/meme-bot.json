@@ -1,16 +1,16 @@
 {
  "status": "running",
- "tradesUsed": 10,
+ "tradesUsed": 13,
  "tradesMax": 250,
  "paperValue": 980.76,
  "startValue": 1000.0,
  "lastTrade": {
-  "time": "2026-10-16T22:53:41-04:00",
+  "time": "2026-10-19T00:14:52-04:00",
   "symbol": "CAPE",
-  "action": "BUY",
-  "price": 0.0001151817764,
-  "sizeUsd": 25.0,
-  "pnlUsd": null
+  "action": "SELL_TP1",
+  "price": 0.000284769,
+  "sizeUsd": 30.95,
+  "pnlUsd": 18.2
  },
  "openPositions": 5,
  "cash": 798.63,
@@ -104,5 +104,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-16T22:56:59-04:00"
+ "updatedAt": "2026-10-19T00:17:17-04:00"
 }
