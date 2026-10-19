@@ -2,7 +2,7 @@
  "status": "running",
  "tradesUsed": 13,
  "tradesMax": 250,
- "paperValue": 1116.28,
+ "paperValue": 1120.53,
  "startValue": 1000.0,
  "lastTrade": {
   "time": "2026-10-19T00:14:52-04:00",
@@ -19,40 +19,40 @@
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.004465,
+   "currentPrice": 0.004521,
    "sizeUsd": 25.0,
-   "pnlUsd": 51.27,
-   "pnlPct": 205.1,
+   "pnlUsd": 52.23,
+   "pnlPct": 208.92,
    "openedAt": "2026-10-16T20:13:56-04:00"
   },
   {
    "symbol": "Nihilism",
    "side": "long",
    "entryPrice": 0.0001580441209,
-   "currentPrice": 0.0001416,
+   "currentPrice": 0.0001468,
    "sizeUsd": 50.0,
-   "pnlUsd": -5.35,
-   "pnlPct": -10.69,
+   "pnlUsd": -3.71,
+   "pnlPct": -7.41,
    "openedAt": "2026-10-16T21:39:13-04:00"
   },
   {
    "symbol": "DOPE",
    "side": "long",
    "entryPrice": 0.003169252839,
-   "currentPrice": 0.003855,
+   "currentPrice": 0.003858,
    "sizeUsd": 50.0,
-   "pnlUsd": 10.62,
-   "pnlPct": 21.25,
+   "pnlUsd": 10.67,
+   "pnlPct": 21.34,
    "openedAt": "2026-10-16T22:11:11-04:00"
   },
   {
    "symbol": "CAPE",
    "side": "long",
    "entryPrice": 0.0001151817764,
-   "currentPrice": 0.000255,
+   "currentPrice": 0.0002699,
    "sizeUsd": 12.5,
-   "pnlUsd": 15.08,
-   "pnlPct": 120.64,
+   "pnlUsd": 16.69,
+   "pnlPct": 133.53,
    "openedAt": "2026-10-16T22:53:41-04:00"
   }
  ],
@@ -130,5 +130,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-19T00:35:43-04:00"
+ "updatedAt": "2026-10-19T00:38:45-04:00"
 }
