@@ -2,7 +2,7 @@
  "status": "running",
  "tradesUsed": 13,
  "tradesMax": 250,
- "paperValue": 980.76,
+ "paperValue": 1105.01,
  "startValue": 1000.0,
  "lastTrade": {
   "time": "2026-10-19T00:14:52-04:00",
@@ -12,28 +12,18 @@
   "sizeUsd": 30.95,
   "pnlUsd": 18.2
  },
- "openPositions": 5,
- "cash": 798.63,
+ "openPositions": 4,
+ "cash": 907.14,
  "openTrades": [
   {
    "symbol": "Dacity",
    "side": "long",
    "entryPrice": 0.001458789119,
-   "currentPrice": 0.001431,
-   "sizeUsd": 50.0,
-   "pnlUsd": -1.11,
-   "pnlPct": -2.22,
-   "openedAt": "2026-10-16T20:13:56-04:00"
-  },
-  {
-   "symbol": "illusion",
-   "side": "long",
-   "entryPrice": 0.0001001072068,
-   "currentPrice": 9.249e-05,
+   "currentPrice": 0.00458302181,
    "sizeUsd": 25.0,
-   "pnlUsd": -1.98,
-   "pnlPct": -7.92,
-   "openedAt": "2026-10-16T21:39:12-04:00"
+   "pnlUsd": 53.29,
+   "pnlPct": 213.16,
+   "openedAt": "2026-10-16T20:13:56-04:00"
   },
   {
    "symbol": "Nihilism",
@@ -59,14 +49,50 @@
    "symbol": "CAPE",
    "side": "long",
    "entryPrice": 0.0001151817764,
-   "currentPrice": 9.982e-05,
-   "sizeUsd": 25.0,
-   "pnlUsd": -3.41,
-   "pnlPct": -13.63,
+   "currentPrice": 0.0002862,
+   "sizeUsd": 12.5,
+   "pnlUsd": 18.45,
+   "pnlPct": 147.63,
    "openedAt": "2026-10-16T22:53:41-04:00"
   }
  ],
  "recentTrades": [
+  {
+   "symbol": "CAPE",
+   "side": "long",
+   "entryPrice": 0.0001151817764,
+   "exitPrice": 0.000284769,
+   "currentPrice": 0.000284769,
+   "sizeUsd": 12.5,
+   "pnlUsd": 18.2,
+   "pnlPct": 145.6,
+   "openedAt": "2026-10-16T22:53:41-04:00",
+   "closedAt": "2026-10-19T00:14:52-04:00"
+  },
+  {
+   "symbol": "illusion",
+   "side": "long",
+   "entryPrice": 0.0001001072068,
+   "exitPrice": 2.343225e-06,
+   "currentPrice": 2.343225e-06,
+   "sizeUsd": 25.0,
+   "pnlUsd": -24.43,
+   "pnlPct": -97.72,
+   "openedAt": "2026-10-16T21:39:12-04:00",
+   "closedAt": "2026-10-19T00:14:50-04:00"
+  },
+  {
+   "symbol": "Dacity",
+   "side": "long",
+   "entryPrice": 0.001458789119,
+   "exitPrice": 0.004535908346,
+   "currentPrice": 0.004535908346,
+   "sizeUsd": 25.0,
+   "pnlUsd": 52.24,
+   "pnlPct": 208.96,
+   "openedAt": "2026-10-16T20:13:56-04:00",
+   "closedAt": "2026-10-19T00:14:49-04:00"
+  },
   {
    "symbol": "Aloooong",
    "side": "long",
@@ -104,5 +130,5 @@
    "closedAt": "2026-10-16T21:03:16-04:00"
   }
  ],
- "updatedAt": "2026-10-19T00:17:17-04:00"
+ "updatedAt": "2026-10-19T00:20:23-04:00"
 }
